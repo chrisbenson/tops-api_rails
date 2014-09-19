@@ -1,0 +1,2 @@
+class DeviceModel < BaseModel
+end
