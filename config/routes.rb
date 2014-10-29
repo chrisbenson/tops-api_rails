@@ -38,7 +38,6 @@ TopsApiRails::Application.routes.draw do
         end
       end
     end
-
   end
 
   namespace :topsortho do
@@ -56,7 +55,7 @@ TopsApiRails::Application.routes.draw do
         resources :subscriptions
         namespace :connect do
           resources :authorizations
-          resources :redirects
+          resources :tokens
           resources :webhooks
           resources :access_tokens
         end
@@ -65,7 +64,7 @@ TopsApiRails::Application.routes.draw do
           resources :subscriptions
           namespace :connect do
             resources :authorizations
-            resources :redirects
+            resources :tokens
             resources :webhooks
             resources :access_tokens
           end
