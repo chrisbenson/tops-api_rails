@@ -28,5 +28,4 @@ class Services::Payments::Stripe::V1::Connect::TokensController < ApplicationCon
 
   end
 
-
 end

@@ -72,7 +72,6 @@ TopsApiRails::Application.routes.draw do
       end
     end
 
-
   end
 
   namespace :topscephmate do

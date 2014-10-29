@@ -28,5 +28,4 @@ class Services::Payments::Stripe::V1::Test::Connect::TokensController < Applicat
 
   end
 
-
 end

@@ -2,7 +2,7 @@ class TestsController < ApplicationController
 
   def index
 
-    render json:'{"hello":"world"}'
+    render json:'{ "hello" : "world" }'
 
   end
 
